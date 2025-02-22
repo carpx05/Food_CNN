@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 
-model=YOLO("/Users/sandeepanghosh/Downloads/Food_CNN/last.pt")
+model=YOLO("backend/app/ml_models/yolov8m_best.pt")
 results=model.predict(source='img.jpg', show=True)
 list=results[0].names
 for r in results:

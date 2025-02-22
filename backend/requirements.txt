@@ -1,0 +1,7 @@
+fastapi 
+uvicorn 
+ultralytics 
+fastapi-cache 
+numpy 
+opencv-python 
+python-multipart
